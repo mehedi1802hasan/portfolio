@@ -1,0 +1,13 @@
+.image-container {
+    height: 200px; /* Adjust the desired height of the image */
+    overflow-y: hidden;
+  }
+  
+  .scrolling-image {
+    transition: transform 5s;
+  }
+  
+  .scrolling-image:hover {
+    transform: translateY(-50%);
+  }
+  

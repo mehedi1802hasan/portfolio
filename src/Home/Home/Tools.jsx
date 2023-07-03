@@ -3,7 +3,7 @@ import React from 'react';
 const Tools = () => {
     return (
        <div>
-        <h3 className='mt-10 mb-5 text-center'>TOOLS</h3>
+        <h3 className='mt-10 mb-5 text-center hover:animate-spin'>TOOLS</h3>
          <div className='flex justify-center gap-5'>
             <p>a</p>
             <p>d</p>

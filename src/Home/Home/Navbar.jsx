@@ -32,7 +32,7 @@ const Navbar = () => {
     
    </ul>
  </div>
- <img class="w-10 h-10 -mr-4 rounded-full" src="https://i.ibb.co/vY6ZXv6/352104323-780488737077625-6792931088336609684-n.jpg" alt="" />
+ <img class="w-10 h-10 -mr-4 rounded-full  hover:animate-spin" src="https://i.ibb.co/vY6ZXv6/352104323-780488737077625-6792931088336609684-n.jpg" alt="" />
  <a className="text-xl normal-case btn btn-ghost">Mehedi</a>
 </div>
 <div className="hidden navbar-center lg:flex">

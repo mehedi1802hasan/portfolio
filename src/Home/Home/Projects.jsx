@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-
+import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const Projects = () => {
       <p className="mt-2 font-bold text-center mb-7">Here is my Lattest Best Mern-stack Project</p>
       <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
         <div>
-          <div className="border-2 shadow-xl border-[#4c1d95] card w-96 bg-base-100">
+          <div className="border-2 shadow-xl border-[#4c1d95] card md:w-96 bg-base-100">
             <figure>
               <div className="image-container">
                 <img
@@ -23,15 +23,15 @@ const Projects = () => {
                SportCamp
                 
               </h2>
-              <p className='h-48'>SportCamp is a sport related course website .In this website user are 3 category.Like: Student ,Instructor and Admin..Instructors can provide some sport related courses
+              <p className='h-48 mb-16 md:mb-2'>SportCamp is a sport related course website .In this website user are 3 category.Like: Student ,Instructor and Admin..Instructors can provide some sport related courses
 Student can access there choising class.they can access the class/course by successfully payment.and Admin can control this website.
 </p>
               <div className=" card-actions">
                 <div className="">
-                  <div className='flex gap-3 my-2'>
-                    <button className=' btn-sm btn btn-outline btn-primary'> Live website</button> 
-                    <button className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> client</button>
-                    <button className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> server</button>
+                  <div className='items-center justify-center gap-3 my-2 md:flex'>
+                  <h4 className='flex' > <Link target='_blank' to='https://sportcamp-cf139.web.app/' className=' btn-sm btn btn-outline btn-primary'> Live website</Link> </h4>
+                  <h4 className='flex' >  <Link target='_blank' to='https://github.com/mehedi1802hasan/SportCamp-client-12' className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> <span>client</span></Link></h4>
+                    <h4 className='flex'><Link target='_blank' to='https://github.com/mehedi1802hasan/SportCamp-server-12' className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> server</Link></h4>
                       </div>
                 </div>
                 <div className="grid grid-cols-3 gap-4">
@@ -52,7 +52,7 @@ Student can access there choising class.they can access the class/course by succ
           </div>
         </div>
         <div>
-          <div className="border-2 border-[#4c1d95] shadow-xl card w-96 bg-base-100">
+          <div className="border-2 border-[#4c1d95] shadow-xl card md:w-96 bg-base-100">
           <figure>
               <div className="image-container">
                 <img
@@ -67,13 +67,13 @@ Student can access there choising class.they can access the class/course by succ
                LearnToys
                
               </h2>
-              <p className='h-48'>LearnToys website have lot of exclusive features.Its like Toys Product related website.Owner can Add Product .every owener have diffrent dashboard.They can see their add toys and also update and delete their toys..</p>
+              <p className='h-48 mb-16 md:mb-2'>LearnToys website have lot of exclusive features.Its like Toys Product related website.Owner can Add Product .every owener have diffrent dashboard.They can see their add toys and also update and delete their toys..</p>
               <div className=" card-actions">
                 <div className="">
-                <div className='flex gap-3 my-2'>
-                    <button className=' btn-sm btn btn-outline btn-primary'> Live website</button> 
-                    <button className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> Client</button>
-                    <button className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span>Server</button>
+                <div className='items-center justify-center gap-3 my-2 md:flex'>
+                <h4 className='flex' >   <Link target='_blank' to='https://learn-toys.web.app/' className=' btn-sm btn btn-outline btn-primary'> Live website</Link> </h4>
+                <h4 className='flex' >   <Link target='_blank' to='https://github.com/mehedi1802hasan/Edukid-client-11' className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> Client</Link></h4>
+                <h4 className='flex' >    <Link target='_blank' to='https://github.com/mehedi1802hasan/EduKid-server-11' className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span>Server</Link></h4>
                       </div>
                 </div>
                 <div className="grid grid-cols-3 gap-4">
@@ -91,7 +91,7 @@ Student can access there choising class.they can access the class/course by succ
           </div>
         </div>
         <div>
-          <div className="border-2 border-[#4c1d95] shadow-xl card w-96 ">
+          <div className="border-2 border-[#4c1d95] shadow-xl card md:w-96 ">
           <figure>
               <div className=" image-container">
                 <img
@@ -106,13 +106,13 @@ Student can access there choising class.they can access the class/course by succ
                 Italian Chef
             
               </h2>
-              <p className='h-48 '>Italian Chef is a Chef related website.There are lot of chef available in this website.Valied user can add new chef .Its a safe and secure website.i used Firebse authentication.Valied user can see every  chef details.valied user have diffrent dashboard.Each valied user can see their add chef list and update and delate also. </p>
+              <p className='h-48 mb-16 md:mb-2'>Italian Chef is a Chef related website.There are lot of chef available in this website.Valied user can add new chef .Its a safe and secure website.i used Firebse authentication.Valied user can see every  chef details.valied user have diffrent dashboard.Each valied user can see their add chef list and update and delate also. </p>
               <div className=" card-actions">
                 <div className="">
-                <div className='flex gap-3 my-2'>
-                    <button className=' btn-sm btn btn-outline btn-primary'> Live website</button> 
-                    <button className='btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> Client</button>
-                    <button className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> server</button>
+                <div className='items-center justify-center gap-3 my-2 md:flex'>
+                <h4 className='flex' >  <Link target='_blank' to='https://italian-kichen-chef.web.app/' className=' btn-sm btn btn-outline btn-primary'> Live website</Link> </h4>
+                <h4 className='flex ' >  <Link target='_blank' to='https://github.com/mehedi1802hasan/chef-recipe-hunter-client-side-10' className='btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> Client</Link></h4>
+                <h4 className='flex' >   <Link target='_blank' to='https://github.com/mehedi1802hasan/chef-recipe-hunter-server-10-side' className=' btn-sm btn btn-outline btn-primary'><span><img className='w-5 h-5' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" /></span> server</Link></h4>
                       </div>
                 </div>
                 <div className="grid grid-cols-3 gap-4">

@@ -17,8 +17,8 @@ const Myself = () => {
                     </div>
                     <h4 className='text-center text-green-600'>Contact me anytime. I'd love to hear from you.</h4>
                 </div>
-                <div className='w-full text-center md:w-1/2'>
-                    <p>I am an undergraduate student pursuing a BSc in Computer Science with a specialization in Data Science. I have expertise in software engineering, particularly as a MERN web developer, Android developer, and React.js enthusiast. I am passionate about leveraging data-driven solutions to solve real-world problems and have a strong foundation in computer science fundamentals. I am skilled in extracting insights from complex datasets and applying machine learning algorithms. Additionally, I have experience building interactive web applications and creating intuitive user interfaces. I am a motivated problem solver who thrives in collaborative environments. Let's connect and explore opportunities to collaborate!</p>
+                <div className='w-full text-center md:w-1/2 mt-8'>
+                    <p>I am an undergraduate student pursuing  BSS Course. I have expertise in Mern-Stack Technology. I am passionate about leveraging data-driven solutions to solve real-world problems and have a strong foundation in Mern-stack development. Additionally,I have experience building interactive web applications and creating intuitive user interfaces.I am a motivated problem solver who thrives in collaborative environments. Let's connect and explore opportunities to collaborate!</p>
                 </div>
             </div>
         </div>
